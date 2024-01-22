@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sizes",
+  "info": {
+    "singularName": "size",
+    "pluralName": "sizes",
+    "displayName": "size",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "size": {
+      "type": "integer"
+    },
+    "quantities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::quantity.quantity",
+      "mappedBy": "size"
+    }
+  }
+}
