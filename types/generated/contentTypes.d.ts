@@ -830,6 +830,7 @@ export interface ApiProductProduct extends Schema.CollectionType {
       'oneToMany',
       'api::quantity.quantity'
     >;
+    isNew: Attribute.Boolean;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

@@ -43,6 +43,9 @@
       "relation": "oneToMany",
       "target": "api::quantity.quantity",
       "mappedBy": "product"
+    },
+    "isNew": {
+      "type": "boolean"
     }
   }
 }
