@@ -38,14 +38,38 @@
       "target": "api::category.category",
       "inversedBy": "products"
     },
-    "quantities": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::quantity.quantity",
-      "mappedBy": "product"
-    },
     "isNew": {
       "type": "boolean"
+    },
+    "size_boot42": {
+      "type": "integer"
+    },
+    "size_boot43": {
+      "type": "integer"
+    },
+    "size_boot44": {
+      "type": "integer"
+    },
+    "size_ski160": {
+      "type": "integer"
+    },
+    "size_ski170": {
+      "type": "integer"
+    },
+    "size_ski180": {
+      "type": "integer"
+    },
+    "size_snowboard144": {
+      "type": "integer"
+    },
+    "size_snowboard152": {
+      "type": "integer"
+    },
+    "size_snowboard160": {
+      "type": "integer"
+    },
+    "size_onesize": {
+      "type": "integer"
     }
   }
 }
